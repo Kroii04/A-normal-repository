@@ -16,7 +16,7 @@ public class Calendar {
 		}
 		while(now.getMonthValue() == month) {
 			if(now.getDayOfMonth() == today)
-				System.out.printf("*%3d",now.getDayOfMonth());
+				System.out.printf("%3d*",now.getDayOfMonth());
 			else 
 				System.out.printf("%4d",now.getDayOfMonth());
 			now = now.plusDays(1);
